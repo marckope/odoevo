@@ -1,0 +1,51 @@
+.dentadura .arriba,.dentadura .abajo {
+    display: flex;
+}
+.diente.incicivo_central img {
+    width: 40.73px;
+}
+.diente.incicivo_lateral img {
+    width: 33.95px;
+}
+.diente.canino img {
+    width: 40.73px;
+}
+.diente.primer_premolar img {
+    width: 33.5px;
+}
+.diente.segundo_premolar img {
+    width: 32.14px;
+}
+.diente.primer_molar img {
+    width: 47.98px;
+}
+.diente.segundo_molar img {
+    width: 44.36px;
+}
+.diente.tercer_molar img {
+    width: 41.64px;
+}
+.rota-horizontal{
+    transform: scaleX(-1);
+}
+
+.dentadura {padding: 120px 0px;}
+
+.diente {
+    padding: 3px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.diente:hover {
+    transform: scale(1.15) ;
+}
+
+.diente.rota-horizontal:hover {
+    transform: scaleX(-1) scale(1.15) ;
+}
+.cuadrante,.cuadrantes .top,.cuadrantes .botton {
+    display: flex;
+}
+.cudrande {
+    text-align: center;
+}
